@@ -1,23 +1,32 @@
 @import url('https://fonts.googleapis.com/css?family=Gaegu');
 
 body {
+  background-image: url('../img/earth.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   font-family: 'Gaegu', cursive;
   font-size: 20px;
-  color: #A26CE7;
+  color: #fff;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
 }
 
 /* NAVBAR STYLES BEGIN */
 .navbar {
   font-family: 'Gaegu', cursive;
   font-size: 25px;
-  color: #A26CE7;
 }
+
 /* NAVBAR STYLES END */
 
 .about {
   font-family: 'Gaegu', cursive;
   font-size: 23px;
-  color: #A26CE7;
+  color: #fff;
   padding top: 20px;
 
 }
